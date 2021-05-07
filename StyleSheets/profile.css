@@ -1,0 +1,24 @@
+#my
+{
+color: rgba(0, 0, 0, .5);
+        width: 100%;
+        height: 100%;
+position:absolute;
+    top: 0;
+text-align: center;
+padding: 8px;
+font-size: 32px;
+}
+
+#name,#birthday,#hobby,#dvantages,#Disadvantages{
+
+    width: 100%;
+    
+top: auto;
+        padding: 8px;
+        font-size: 16px;
+      bottom:100;
+      vertical-align:text-bottom;
+text-align: justify;
+text-justify: auto;
+}
