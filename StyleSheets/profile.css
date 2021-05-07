@@ -1,24 +1,80 @@
-#my
+
+#achievement
 {
-color: rgba(0, 0, 0, .5);
-        width: 100%;
-        height: 100%;
-position:absolute;
-    top: 0;
-text-align: center;
-padding: 8px;
-font-size: 32px;
+    color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    position:absolute;
+
+    top: 50%;
+    text-align: center;
+    padding: 8px;
+    font-size: 32px;
+
+}
+#name{
+
+    color: #ff8c00;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+
+    top: 10%;
+    text-align: left;
+    padding: 30px;
+    font-size: 20px;
+
 }
 
-#name,#birthday,#hobby,#dvantages,#Disadvantages{
+#birthday{
 
+    color: #ff0;
     width: 100%;
-    
-top: auto;
-        padding: 8px;
-        font-size: 16px;
-      bottom:100;
-      vertical-align:text-bottom;
-text-align: justify;
-text-justify: auto;
+    height: 100%;
+    position:absolute;
+
+    top: 15%;
+    text-align: left;
+    padding: 35px;
+    font-size: 20px;
+
+}
+#hobby{
+
+    color: #4169e1;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+
+    top: 20%;
+    text-align: left;
+    padding: 40px;
+    font-size: 20px;
+
+}
+#advantages{
+
+    color: #ff4500;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+
+    top: 25%;
+    text-align: left;
+    padding: 45px;
+    font-size: 20px;
+
+}
+#Disadvantages{
+
+    color: #228b22;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+
+    top: 30%;
+    text-align: left;
+    padding: 55px;
+    font-size: 20px;
+
 }
