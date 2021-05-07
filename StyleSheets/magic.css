@@ -1,0 +1,19 @@
+
+.container {
+    display: grid;
+
+    background-color: brown;
+    grid-template: repeat(3, 80px) / repeat(auto-fill, 80px);
+    cursor: pointer;
+
+    margin: 8;
+    padding: 0%;
+    top: 10%;
+
+  }
+
+.bigsize
+{
+size: 50%;
+}
+
