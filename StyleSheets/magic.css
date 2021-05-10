@@ -19,9 +19,9 @@
     grid-column: 2/2;
 
     background-color: #e77c8a;
-    font-size: 48px;
+    font-size: 20px;
     text-align: center;
-    line-height: 298px;
+    line-height: 20px;
 
     cursor: pointer;
 
@@ -33,44 +33,28 @@
     text-align: left;
 
  
-
+    box-sizing: border-box;
   }
   .item2{
 
     grid-row: 1/3;
     grid-column: 2/2;
 
-    background-color: #e77c8a;
-    font-size: 48px;
+    background-color: #ffd700;
+    font-size: 20px;
     text-align: center;
-    line-height: 298px;
+    line-height: 20px;
 
     cursor: pointer;
 
     top: 200%;
     
 
-
+    box-sizing: border-box;
     text-align: center;
     text-align: left;
 
-    /* display: grid;
-
-    background-color:green;
-  
-    cursor: pointer;
-    top: 70%;
-    text-align: center;
-    text-align: left;
-
-    width: 50%;
-    height: 50%; */
-   
-/*   
-    top: 2000%;
-    right: 80%;
-    width: 50;
-    height: 100%; */
+ 
 
   }
 
@@ -79,109 +63,58 @@
     grid-row: 1/3;
     grid-column: 2/2;
 
-    background-color: #e77c8a;
-    font-size: 48px;
+    background-color: #dc143c;
+    font-size: 20px;
     text-align: center;
-    line-height: 298px;
+    line-height: 20px;
 
     cursor: pointer;
 
     top: 200%;
     
-
+    box-sizing: border-box;
 
     text-align: center;
     text-align: left;
 
-    /* display: grid;
-
-    background-color: blue;
-  
-    cursor: pointer;
-
-    top: 70%;
- 
-    text-align: center;
-    text-align: left;
-    width: 50%;
-    height: 50%;
-   */
-    /* top: 2000%;
-    right: 70%;
-    width: 50;
-    height: 100%; */
-
+   
   }
   .item4{
     grid-row: 1/3;
     grid-column: 2/2;
 
     background-color: #e77c8a;
-    font-size: 48px;
+    font-size:20px;
     text-align: center;
-    line-height: 298px;
+    line-height: 20px;
 
     cursor: pointer;
 
     top: 200%;
     
+    box-sizing: border-box;
 
 
-    /* text-align: center;
-    text-align: left;
-
-    display: grid;
-
-    background-color :chartreuse;
-  
-    cursor: pointer;
-
-    top: 70%;
-    text-align: center;
-    text-align: left;
-
-    width: 50%;
-    height: 50%; */
- 
-    /* top: 2000%;
-    right: 60%;
-    width: 50;
-    height: 100%; */
 
   }
   .item4{
     grid-row: 1/3;
     grid-column: 2/2;
 
-    background-color: #e77c8a;
-    font-size: 48px;
+    background-color: #9370db;
+    font-size: 10gipx;
     text-align: center;
-    line-height: 298px;
+    line-height: 20px;
 
     cursor: pointer;
 
     top: 200%;
-    
+    box-sizing: border-box;
 
 
     text-align: center;
     text-align: left;
-    /* display: grid;
-
-    background-color:white;
-  
-    cursor: pointer;
-
-    top: 70%;
- 
-
-    width: 50%;
-    height: 50%;
-    */
-    /* top: 2000%;
-    right: 60%;
-    width: 50;
-    height: 100%; */
+   
 
   }
   .item5{
@@ -189,66 +122,66 @@
     grid-row: 1/3;
     grid-column: 2/2;
 
-    background-color: #e77c8a;
-    font-size: 48px;
+    background-color: #add8e6;
+    font-size: 20px;
     text-align: center;
-    line-height: 298px;
+    line-height: 20px;
 
     cursor: pointer;
 
     top: 200%;
     
 
-
+    box-sizing: border-box;
     text-align: center;
     text-align: left;
-    /* display: grid;
 
-    background-color: brown;
-  
-    cursor: pointer;
-
-    top: 70%;
- 
-    text-align: center;
-    text-align: left;
-    width: 50%;
-    height: 50%; */
- 
-/* 
-    top: 2000%;
-    right: 50%; */
-
-    
   }
+  
 .bigsize
 {
 
     
-  display: grid;
+  grid-template-columns: 5000px 5000px 5000px;
+  grid-row: 1/3;
+  grid-column: 2/2;
 
-  grid-template-columns: 100px 100px 100px;
+  background-color: #e77c8a;
+  font-size: 30px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+
+  top: 200%;
+
+
+  text-align: center;
+  text-align: left;
+
+
+  box-sizing: border-box;
  
-transition: 0.001s;
-
-
-    background-color: skyblue;
    
-    cursor: pointer;
-
- 
-    top: 200%;
     
-;
+}
+.small
+{
+  
+  grid-row: 1/3;
+  grid-column: 2/2;
 
-    text-align: center;
-    text-align: left;
+
+  font-size: 48px;
+  text-align: center;
+  line-height: 298px;
+
+  cursor: pointer;
+
+  top: 200%;
+  grid: 10px;
 
 
-      font-size: 48px;
-    text-align: center;
-    line-height: 500px;
-
+  
 }
 #Works
 
@@ -257,16 +190,9 @@ transition: 0.001s;
   height: 300px; 
   margin: auto;
   overflow: hidden;
+
 }
-#WorkDescription1
-{
-  width: 50px;
-  height: 50px; 
-  margin: auto;
-  overflow: hidden;
-}
-.close{
-    float: center;
-    cursor: pointer;
-}
+
+
+
 
