@@ -14,4 +14,23 @@ body{
     padding: 0;
         margin: 0;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
+
+
+
+
+    }
+
+    #main
+    {
+      
+ 
+top: 0;
+left: 20px;
+padding: 8px;
+z-index: 1;
+overflow: auto;
+box-sizing: border-box;
+
+
+    }
