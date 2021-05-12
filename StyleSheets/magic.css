@@ -1,4 +1,4 @@
-
+/* グリッド調整CSS */
 .container{
     display: grid;
   
@@ -29,7 +29,7 @@
     
 
 
-    text-align: center;
+   
     text-align: left;
 
  
@@ -51,7 +51,7 @@
     
 
     box-sizing: border-box;
-    text-align: center;
+
     text-align: left;
 
  
@@ -74,7 +74,6 @@
     
     box-sizing: border-box;
 
-    text-align: center;
     text-align: left;
 
    
@@ -112,7 +111,7 @@
     box-sizing: border-box;
 
 
-    text-align: center;
+
     text-align: left;
    
 
@@ -133,7 +132,7 @@
     
 
     box-sizing: border-box;
-    text-align: center;
+   
     text-align: left;
 
   }
@@ -145,7 +144,7 @@
     background-color: #ff7f50;
     font-size: 20px;
     text-align: center;
-    line-height: 20px;
+    line-height: 100px;
 
     cursor: pointer;
 
@@ -153,8 +152,8 @@
     
 
     box-sizing: border-box;
-    text-align: center;
-    text-align: left;
+  
+    text-align:left;
 
   }
 
@@ -167,6 +166,7 @@
   overflow: hidden;
 
 }
+
 
 
 
