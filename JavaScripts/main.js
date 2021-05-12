@@ -25,11 +25,10 @@ item1.addEventListener('mouseover',()=>{
    
 cover.className="menu-open";
      
-  // cover.className='menu-open';
+ 
 })
 menu.addEventListener('mouseleave',()=>{
-   //item1.className='';
-  // cover.className='';
+
 
   item1.className="small";
  cover.className="";
@@ -43,9 +42,9 @@ item2.addEventListener('mouseover',()=>{
   cover.className='menu-open';
 });
 menu.addEventListener('mouseleave',()=>{
-// item2.className='';
-// cover.className='';
+
 item2.className='small2';
+cover.className="";
 });
 
 //作品３
@@ -55,9 +54,9 @@ item3.addEventListener('mouseover',()=>{
   cover.className='menu-open';
 });
 menu.addEventListener('mouseleave',()=>{
-// item3.className='';
-// cover.className='';
+
 item3.className='small3';
+cover.className="";
 });
 //作品４
 item4.addEventListener('mouseover',()=>{
@@ -66,8 +65,7 @@ item4.addEventListener('mouseover',()=>{
    cover.className='menu-open';
 });
 menu.addEventListener('mouseleave',()=>{
-// item4.className='';
-// cover.className='';
+
 item4.className='small4';
 });
 //作品5
@@ -77,8 +75,7 @@ item5.addEventListener('mouseover',()=>{
   cover.className='menu-open';
 });
 menu.addEventListener('mouseleave',()=>{
-// item5.className='';
-// cover.className='';
+  cover.className="";
 item5.className='small5';
 });
 
@@ -89,7 +86,7 @@ delighted.addEventListener('mouseover',()=>{
 cover.className='menu-open';
 });
 menu.addEventListener('mouseleave',()=>{
-// item5.className='';
-// cover.className='';
+
 delighted.className='small6';
+cover.className="";
 });
