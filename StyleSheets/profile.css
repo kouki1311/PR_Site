@@ -1,4 +1,12 @@
 
+/* プロフィール欄
+名前
+誕生日
+趣味
+長所
+短所
+出身学校
+写真 */
 #achievement
 {
     color: rgba(0, 0, 0, .5);
@@ -77,6 +85,18 @@
     padding: 55px;
     font-size: 20px;
 
+}
+#school
+{
+    color:#00bfff;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+
+    top: 35%;
+    text-align: left;
+    padding: 60px;
+    font-size: 20px;
 }
 #Photo
 {

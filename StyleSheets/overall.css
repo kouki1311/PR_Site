@@ -1,3 +1,6 @@
+
+/* サイト全体CSS */
+
 #my
 {
     color: rgba(0, 0, 0, .5);
@@ -12,8 +15,8 @@
 body{
     background-color: #d3d3d3  ;
     padding: 0;
-        margin: 0;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 
 
@@ -21,16 +24,12 @@ body{
 
     }
 
-    #main
-    {
-      
- 
-top: 0;
-left: 20px;
-padding: 8px;
-z-index: 1;
-overflow: auto;
-box-sizing: border-box;
-
-
-    }
+/* #main
+{
+    　　top: 0;
+    　　　left: 20px;
+    　　　padding: 8px;
+    　　　z-index: 1;
+    　　　overflow: auto;
+    　　　box-sizing: border-box;
+} */

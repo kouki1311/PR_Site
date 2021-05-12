@@ -1,27 +1,14 @@
 
 
-/* #menu{
-    background-color: #4c8e44;
-    color:#fff;
-    position:absolute;
-    top: 0;
-    left: -180px;
-
-    padding: 8px;
-    width: 180px;
-    min-height: 100%;
-    z-index: 3;
-    box-sizing: border-box;
-    transition:  .4s;
-}  */
+/* イベント発生時に黒くするCSS */
 
  #cover
 {
     background: #000;
     opacity: .6;
 
-    width: 350%;
-    height: 350%;
+    width: 1000%;
+    height: 1000%;
     position: absolute;
     top:  0;
     left: 0;
@@ -48,8 +35,5 @@ display: block;
 {
     display: block;
 }
-#menu.menu-open
-{
-    left: 0;
-}
+
  
