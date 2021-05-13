@@ -29,8 +29,8 @@ cover.className="menu-open";
 })
 menu.addEventListener('mouseleave',()=>{
 
-
   item1.className="small";
+
  cover.className="";
   });
 

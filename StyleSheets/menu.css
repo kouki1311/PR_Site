@@ -23,7 +23,7 @@ display: block;
 }
 
 .close,#open{
-    float: center;
+    float: right;
 
     cursor: pointer;
 }
