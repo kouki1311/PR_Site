@@ -2,14 +2,14 @@
 .container{
     display: grid;
   
-    grid-gap: 10px 5px;
 
 
 
-    grid-template: repeat(3, 80px) / repeat(auto-fill, 80px);
-    grid-gap: 10px 5px;
 
-    grid-template-rows: 190px 108px;
+    grid-template: repeat(1, 80px) / repeat(auto-fill, 80px);
+    grid-gap: 100px 30px;
+
+    grid-template-rows: 190px 108px 100px;
     grid-template-columns: 98px 1fr;
 }
 .item1{
@@ -25,9 +25,8 @@
 
     cursor: pointer;
 
-    top: 200%;
-    
-
+    top: 150%;
+ 
 
    
     text-align: left;
@@ -47,7 +46,7 @@
 
     cursor: pointer;
 
-    top: 200%;
+    top: 150%;
     
 
     box-sizing: border-box;
@@ -70,7 +69,7 @@
 
     cursor: pointer;
 
-    top: 200%;
+    top: 150%;
     
     box-sizing: border-box;
 
@@ -89,7 +88,7 @@
 
     cursor: pointer;
 
-    top: 200%;
+    top: 150%;
     
     box-sizing: border-box;
 
@@ -107,7 +106,7 @@
 
     cursor: pointer;
 
-    top: 200%;
+    top: 150%;
     box-sizing: border-box;
 
 
@@ -128,7 +127,7 @@
 
     cursor: pointer;
 
-    top: 200%;
+    top: 150%;
     
 
     box-sizing: border-box;
@@ -144,11 +143,11 @@
     background-color: #ff7f50;
     font-size: 20px;
     text-align: center;
-    line-height: 100px;
+    line-height: 20px;
 
     cursor: pointer;
 
-    top: 200%;
+    top: 150%;
     
 
     box-sizing: border-box;
