@@ -12,11 +12,7 @@ const close =document.getElementById('close');//×ボタン
 const cover=document.getElementById('cover');//カバー
 
 
- const fade=document.getElementsByClassName('fadein');//フェードイン
- const fadeout=document.getElementsByClassName('fadeout');//フェードアウト
-
- const idTarget = document.getElementById('target');
- const classList = idTarget.classList;
+ 
 
 
 //作品１
@@ -39,7 +35,6 @@ menu.addEventListener('mouseleave',()=>{
   item1.className="small";
   cover.className="";
 
- 
   });
 
 }
@@ -131,47 +126,7 @@ cover.className="";
 }
 
 
-//フェイドアウト
-const fadeOut=(id, time,callback=null)=>{
 
-  
-  const elem = document.querySelector(id)
-  let i = 1.0
-
-  const timerid = setInterval( ()=>{
-    // 透明度を下げる
-    elem.style.opacity = i
-    i -= 0.1
-
-    // 完全に透明になったら終了
-    if( i <= 0 ){
-      clearInterval(timerid)
-      if( typeof callback === "function" ){
-        callback(elem)
-      }
-    }
-  }, time)
-}
-//フェードイン
-const fadeIn=(id,time,callback=null)=>
-{
-  const elem = document.querySelector(id)
-  let i = 0.0
-
-  const timerid = setInterval( ()=>{
-    // 透明度を上げる
-    elem.style.opacity = i
-    i += 0.1
-
-    // 完全に表示されたら終了
-    if( i >= 1.0 ){
-      clearInterval(timerid)
-      if( typeof callback === "function" ){
-        callback(elem)
-      }
-    }
-  }, time)
-}
 
 
 
