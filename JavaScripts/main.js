@@ -9,7 +9,7 @@ const item5=document.getElementById("Work5");//作品５
 const delighted=document.getElementById("Delighted");//得意なこと
 
 const close =document.getElementById('close');//×ボタン
-const cover=document.getElementById('cover');//カバー
+const cover=document.getElementById('cover');//カバー5
 
 
  
@@ -23,16 +23,16 @@ const Work1=()=>{
   
 
 
-    item1.className='bigsize';
+    item1.className='workbigsize1';
    
 cover.className="menu-open";
 
 
 })
 
-menu.addEventListener('mouseleave',()=>{
+item1.addEventListener('mouseleave',()=>{
 
-  item1.className="small";
+  item1.className="worksmall1";
   cover.className="";
 
   });
@@ -44,13 +44,13 @@ const Work2=()=>
 {
 item2.addEventListener('mouseover',()=>{
 
-    item2.className='bigsize2';
+    item2.className='workbigsize2';
   cover.className='menu-open';
   
 });
-menu.addEventListener('mouseleave',()=>{
+item2.addEventListener('mouseleave',()=>{
 
-item2.className='small2';
+item2.className='worksmall2';
 cover.className="";
 
 
@@ -61,14 +61,14 @@ const Work3=()=>
 //作品３
 item3.addEventListener('mouseover',()=>{
    
-    item3.className='bigsize3';
+    item3.className='workbigsize3';
   cover.className='menu-open';
  
 
 });
-menu.addEventListener('mouseleave',()=>{
+item3.addEventListener('mouseleave',()=>{
 
-item3.className='small3';
+item3.className='worksmall3';
 cover.className="";
 
 });
@@ -80,13 +80,13 @@ const Work4=()=>
 
 item4.addEventListener('mouseover',()=>{
 
-    item4.className='bigsize4';
+    item4.className='workbigsize4';
    cover.className='menu-open';
 
 });
-menu.addEventListener('mouseleave',()=>{
+item4.addEventListener('mouseleave',()=>{
 
-item4.className='small4';
+item4.className='worksmall4';
 cover.className="";
 
 });
@@ -97,13 +97,13 @@ const Work5=()=>{
 
 item5.addEventListener('mouseover',()=>{
 
-    item5.className='bigsize5';
+    item5.className='workbigsize5';
   cover.className='menu-open';
 
 });
-menu.addEventListener('mouseleave',()=>{
+item5.addEventListener('mouseleave',()=>{
   cover.className="";
-item5.className='small5';
+item5.className='worksmall5';
 
 });
 
@@ -113,13 +113,13 @@ const Delighted=()=>{
 //得意なこと
 delighted.addEventListener('mouseover',()=>{
 
-  delighted.className='bigsize6';
+  delighted.className='delightedbigsize6';
 cover.className='menu-open';
 
 });
-menu.addEventListener('mouseleave',()=>{
+delighted.addEventListener('mouseleave',()=>{
 
-delighted.className='small6';
+delighted.className='delightedsmall6';
 cover.className="";
 
 });
