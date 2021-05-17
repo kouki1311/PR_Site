@@ -2,7 +2,8 @@
 /* イベント発生時のグリッドを大小にするCSS */
 
 
-.bigsize
+/* 作品グリッド1大小 */
+.workbigsize1
 {
   grid-template-columns: 1fr 60px;
     
@@ -35,7 +36,7 @@
   animation: fadein 2s;
 
 }
-.small
+.worksmall1
 {
   
   grid-row: 1/3;
@@ -64,8 +65,8 @@
 
 }
 
-
-.bigsize2
+/* 作品グリッド2大小 */
+.workbigsize2
 {
   grid-template-columns: 1fr 60px;
     
@@ -94,7 +95,7 @@
   z-index: 3;
   animation: fadein 2s;
 }
-.small2
+.worksmall2
 {
   
   grid-row: 1/3;
@@ -118,7 +119,9 @@
   box-sizing: border-box;
   animation: fadeout 2s;
 }
-.bigsize3
+
+/* 作品グリッド3大小 */
+.workbigsize3
 {
   grid-template-columns: 1fr 60px;
     
@@ -149,7 +152,7 @@
   z-index: 3;
   animation: fadein 2s;
 }
-.small3
+.worksmall3
 {
   
   grid-row: 1/3;
@@ -173,7 +176,10 @@
   box-sizing: border-box;
   animation: fadeout 2s;
 }
-.bigsize4
+
+
+/* 作品グリッド4大小 */
+.workbigsize4
 {
   grid-template-columns: 1fr 60px;
     
@@ -200,7 +206,7 @@
   
   
 }
-.small4
+.worksmall4
 {
   
   grid-row: 1/3;
@@ -224,7 +230,9 @@
   box-sizing: border-box;
   animation: fadeout 2s;
 }
-.bigsize5
+
+/* 作品グリッド5大小 */
+.workbigsize5
 {
   grid-template-columns: 1fr 60px;
     
@@ -253,7 +261,7 @@ right:  50%;
 
   animation: fadein 2s;
 }
-.small5
+.worksmall5
 {
   
   grid-row: 1/3;
@@ -278,8 +286,8 @@ right:  50%;
   animation: fadeout 2s;
 }
 
-
-.bigsize6
+/* 得意なことグリッド大小 */
+.delightedbigsize6
 {
   grid-template-columns: 1fr 60px;
     
@@ -305,7 +313,7 @@ right:  80%;
   z-index: 3;
   animation: fadein 2s;
 }
-.small6
+.delightedsmall6
 {
   
   grid-row: 1/3;
@@ -343,7 +351,7 @@ right:  80%;
 
 
 
-
+/* フェードインとフェードアウト */
 @keyframes fadein {
   0% {
       opacity: 0;
