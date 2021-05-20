@@ -11,6 +11,7 @@
     text-align: center;
     padding: 8px;
     font-size: 32px;
+    box-sizing: border-box;
 }
 body{
     background-color: #d3d3d3  ;
@@ -19,7 +20,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 
-
+    box-sizing: border-box;
 
 
     }

@@ -18,7 +18,7 @@
     text-align: center;
     padding: 8px;
     font-size: 32px;
-
+    box-sizing: border-box;
 }
 #name{
 
@@ -31,7 +31,7 @@
     text-align: left;
     padding: 30px;
     font-size: 20px;
-
+    box-sizing: border-box;
 }
 
 #birthday{
@@ -45,7 +45,7 @@
     text-align: left;
     padding: 35px;
     font-size: 20px;
-
+    box-sizing: border-box;
 }
 #hobby{
 
@@ -58,7 +58,7 @@
     text-align: left;
     padding: 40px;
     font-size: 20px;
-
+    box-sizing: border-box;
 }
 #advantages{
 
@@ -71,7 +71,7 @@
     text-align: left;
     padding: 45px;
     font-size: 20px;
-
+    box-sizing: border-box;
 }
 #Disadvantages{
 
@@ -84,7 +84,7 @@
     text-align: left;
     padding: 55px;
     font-size: 20px;
-
+    box-sizing: border-box;
 }
 #school
 {
@@ -97,6 +97,7 @@
     text-align: left;
     padding: 60px;
     font-size: 20px;
+    box-sizing: border-box;
 }
 #Photo
 {
@@ -113,5 +114,5 @@
     margin: auto;
     overflow: hidden;
 
-
+    box-sizing: border-box;
 }

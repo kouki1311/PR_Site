@@ -24,7 +24,7 @@ const Work1=()=>{
 
 
     item1.className='workbigsize1';
-   
+  
 cover.className="menu-open";
 
 

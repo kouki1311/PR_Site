@@ -11,6 +11,7 @@
 
     grid-template-rows: 190px 108px ;
     grid-template-columns: 98px 1fr;
+    box-sizing: border-box;
 }
 .item1{
 
