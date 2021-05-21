@@ -26,9 +26,9 @@ const Work1=()=>{
     item1.className='workbigsize1';
   
 cover.className="menu-open";
-// fade("#Work1",60,()=>{
+fade("#Work1",60,()=>{
 
-// })
+})
 
 
 })
@@ -51,9 +51,9 @@ item2.addEventListener('mouseover',()=>{
 
     item2.className='workbigsize2';
   cover.className='menu-open';
-// fade("#Work2",60,()=>{
+fade("#Work2",60,()=>{
   
-// })
+})
 });
 item2.addEventListener('mouseleave',()=>{
 
@@ -73,9 +73,9 @@ item3.addEventListener('mouseover',()=>{
  
     item3.className='workbigsize3';
   cover.className='menu-open';
-  // fade("#Work3",60,()=>{
+  fade("#Work3",60,()=>{
    
-  // })
+  })
 
 });
 item3.addEventListener('mouseleave',()=>{
