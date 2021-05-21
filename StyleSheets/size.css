@@ -60,7 +60,7 @@
   box-sizing: border-box;
   transition: 0.6s;
 
-  animation: fadeout 2s;
+  /* animation: fadeout 2s; */
  
 
 }
@@ -104,7 +104,7 @@
   background-color:#ffd700;
   font-size: 20px;
   text-align: center;
-  line-height: 20px;
+  line-height: 20px;    
 
   cursor: pointer;
 
@@ -117,7 +117,7 @@
 
 
   box-sizing: border-box;
-  animation: fadeout 2s;
+  /* animation: fadeout 2s; */
 }
 
 /* 作品グリッド3大小 */
@@ -174,7 +174,7 @@
 
 
   box-sizing: border-box;
-  animation: fadeout 2s;
+  /* animation: fadeout 2s; */
 }
 
 
@@ -228,7 +228,7 @@
 
 
   box-sizing: border-box;
-  animation: fadeout 2s;
+  /* animation: fadeout 2s; */
 }
 
 /* 作品グリッド5大小 */
@@ -283,7 +283,7 @@ right:  50%;
 
 
   box-sizing: border-box;
-  animation: fadeout 2s;
+  /* animation: fadeout 2s; */
 }
 
 /* 得意なことグリッド大小 */
@@ -335,7 +335,7 @@ right:  80%;
 
 
   box-sizing: border-box;
-  animation: fadeout 2s;
+  /* animation: fadeout 2s; */
 }
 #fontsize
 {
@@ -349,6 +349,14 @@ right:  80%;
 }
 
 
+/* .fadein{
+  animation: fadein 3s;
+}
+
+.fadeout{
+  animation: fadeout 3s;
+  animation-fill-mode: forwards;
+}
 
 
 /* フェードインとフェードアウト */
@@ -372,4 +380,4 @@ right:  80%;
       opacity: 1;
      display: none;
   }
-}
+} 
