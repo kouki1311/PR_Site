@@ -12,7 +12,7 @@ const close =document.getElementById('close');//×ボタン
 const cover=document.getElementById('cover');//カバー5
 
 
-
+const fadeitem1=document.getElementById("workfade");
 
 
 //作品１
