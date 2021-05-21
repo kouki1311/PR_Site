@@ -33,7 +33,7 @@
   z-index: 3;
 /* 
   //フェード */
-  /* animation: fadein 2s; */
+  animation: fadein 2s;
 
 }
 .worksmall1
@@ -93,7 +93,7 @@
   box-sizing: border-box;
 
   z-index: 3;
-  /* animation: fadein 2s; */
+  animation: fadein 2s;
 }
 .worksmall2
 {
@@ -150,7 +150,7 @@
   box-sizing: border-box;
  
   z-index: 3;
-  /* animation: fadein 2s; */
+  animation: fadein 2s;
 }
 .worksmall3
 {
